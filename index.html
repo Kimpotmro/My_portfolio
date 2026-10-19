@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Makes the website fit mobile phones and computers -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hannah Miro Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Connect the JavaScript file -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME SECTION -->
+        <section id="home" class="hero section">
+            <div class="hero-text">
+                
+                <h1>Hannah Kim<br>
+                    <span>Azur Miro</span>
+                </h1>
+
+                <p class="intro">
+                    Hi! I'm Hannah Kim Miro, an IT student who enjoys
+                    learning about programming and web design.
+                    Welcome to my portfolio!
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work ↗
+                    </a>
+                    <a href="#about" class="btn btn-outline">
+                        Get to Know Me
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="29a0fa4e-bed4-4eed-a7ad-766e19cd878e(1).jpg"
+                    alt="Hannah Miro's profile picture"
+                    onerror="this.style.display='none';
+                    this.nextElementSibling.style.display='flex';">
+
+                <div class="image-placeholder">
+                    <span>✿</span>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ABOUT ME SECTION -->
+        <section id="about" class="section">
+            <div class="section-heading">
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-card vintage-card">
+
+                <p>
+                    My name is Hannah Kim Miro, and I am a student
+                    passionate about learning computer programming and
+                    exploring the world of Information Technology.
+                    Through my studies, I aim to develop my technical
+                    skills, expand my knowledge, and gain the experience
+                    needed to prepare myself for the challenges and
+                    opportunities of a future career in the IT industry.
+                </p>
+
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span>COURSE / PROGRAM</span>
+                        <strong>ACT/BSIT</strong>
+                    </div>
+
+                    <div class="info-item">
+                        <span>SCHOOL</span>
+                        <strong>DATAMEX COLLEGE OF SAINT ADELINE</strong>
+                    </div>
+
+                    <div class="info-item">
+                        <span>HOBBIES</span>
+                        <strong>Drawing, gaming, crocheting,
+                            and braiding hair</strong>
+                    </div>
+
+                    <div class="info-item">
+                        <span>INTERESTS</span>
+                        <strong>Web development, cute and simple
+                            games, and new technologies</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-icon">✧</span>
+                    <h3>Basic Programming</h3>
+                    <p>Learning the foundations of writing code.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">⌘</span>
+                    <h3>Basic Computer Skills</h3>
+                    <p>Using computer applications and tools.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">✂</span>
+                    <h3>Video Editing</h3>
+                    <p>Editing clips into simple creative videos.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">◷</span>
+                    <h3>Time Management</h3>
+                    <p>Organizing tasks and deadlines.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">❀</span>
+                    <h3>Following Instructions</h3>
+                    <p>Understanding and completing assigned tasks.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <h2>My <span>Projects</span></h2>
+                <p class="heading-note">
+                    A collection of my work and learning experiences.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- PROJECT 1: Replace the placeholders below -->
+                <article class="project-card vintage-card">
+                    <div class="project-image">
+                        <img
+                            src="078d16a5-2be9-4727-8de1-1c6e36f6efb4.jpg"
+                            alt="Project 1 preview"
+                            onerror="this.style.display='none';
+                            this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder">
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <p class="project-number">PROJECT NO. 01</p>
+                        <h3>LOGIN FORM</h3>
+                        <p>The Login Form was created using HTML and CSS. It allows users to enter their username and password to access their accounts. It also includes a “Remember Me” checkbox, a “Forgot Password” option, a Login button, and a sign-up option for users who do not have an account yet.</p>
+                        <div class="tech-tag">Visual Studio Code</div>
+                    </div>
+                </article>
+
+                <!-- PROJECT 2 -->
+                <article class="project-card vintage-card">
+                    <div class="project-image">
+                        <img
+                            src="f9738522-2ce9-4a47-ad9f-ff10535e71a6.jpg"
+                            alt="Project 2 preview"
+                            onerror="this.style.display='none';
+                            this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder">
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <p class="project-number">PROJECT NO. 02</p>
+                        <h3>REGISTRATION FORM</h3>
+                        <p>The Registration Form was created using HTML and CSS. It allows users to create a new account by providing their personal information, such as name, email, and password. It also includes validation to ensure that the entered information is correct and secure.</p>
+                        <div class="tech-tag">Visual Studio Code</div>
+                    </div>
+                </article>
+
+                <!-- PROJECT 3 -->
+                <article class="project-card vintage-card">
+                    <div class="project-image">
+                        <img
+                            src="Screenshot 2026-10-20 000417.png"
+                            alt="Project 3 preview"
+                            onerror="this.style.display='none';
+                            this.nextElementSibling.style.display='flex';">
+                        <div class="project-placeholder">
+
+                        </div>
+                    </div>
+
+                    <div class="project-content">
+                        <p class="project-number">PROJECT NO. 03</p>
+                        <h3>STUDENT RECORD MANAGEMENT</h3>
+                        <p>The Student Record Management system was created using HTML and CSS. It allows users to view, add, edit, and delete student information. It also includes search and filter functionality to easily find specific student records.</p>
+                        <div class="tech-tag">Visual Studio Code</div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact <span>Me</span></h2>
+                <p class="heading-note">
+                    Have a question or want to connect? Find me here.
+                </p>
+            </div>
+
+            <div class="contact-card vintage-card">
+                <div class="contact-flower">❦</div>
+
+                <div class="contact-item">
+                    <span>EMAIL</span>
+                    <a href="mailto:mirohannahkim@gmail.com">mirohannahkim@gmail.com</a>
+                </div>
+
+                <div class="contact-item">
+                    <span>FACEBOOK</span>
+                    <a href="https://www.facebook.com/Hannahkimmiro"
+                       target="_blank" rel="noopener noreferrer">
+                        Hannah Miro
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <span>CONTACT NUMBER</span>
+                    <a href="tel:09202643438">09202643438</a>
+                </div>
+
+                <div class="contact-item">
+                    <span>OTHER SOCIAL MEDIA</span>
+                    <a href="https://www.instagram.com/hann_ahnotfound/"
+                       target="_blank" rel="noopener noreferrer">
+                        hann_ahnotfound
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Back-to-top button; JavaScript controls its visibility -->
+    <button id="backToTop" class="back-to-top"
+            aria-label="Back to top">↑</button>
+
+</body>
+</html>
